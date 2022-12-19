@@ -1,5 +1,5 @@
-LineageOS
-===========
+LineageOS for OnePlus 2
+=======================
 
 Getting started
 ---------------
@@ -8,11 +8,15 @@ To get started with Android/LineageOS, you'll need to get familiar with [Source 
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-20.0
+repo init -u https://github.com/LineageOS-OP2/android.git -b lineage-20.0
+```
+To initialize a shallow clone, use the following command:
+```
+repo init --depth=1 -u https://github.com/LineageOS-OP2/android.git -b lineage-20.0
 ```
 Then to sync up:
 ```
-repo sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
 
