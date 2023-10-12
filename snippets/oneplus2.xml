@@ -19,4 +19,7 @@
   <!-- Vendor -->
   <project name="mukul2259/experimental_device_oneplus_oneplus2" path="vendor/oneplus" revision="vendor-clean"/>
 
+  <!-- Legacy SEPolicy -->
+  <project name="LineageOS-OP2/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" revision="lineage-20.0-legacy"/>
+
 </manifest>
