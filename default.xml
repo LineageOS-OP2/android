@@ -1130,5 +1130,6 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/remove.xml" />
+  <include name="snippets/oneplus2.xml" />
 
 </manifest>
